@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mavenn Testing in CMD]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Naveen Maven Test(failed)">
+    <classes>
+      <class name="ExtentsReports.ExtentsReports.FirstClass">
+        <methods>
+          <include name="setTest"/>
+          <include name="TitleTest1"/>
+          <include name="teardown"/>
+          <include name="EndReport"/>
+          <include name="Setup"/>
+          <include name="TitleTest"/>
+        </methods>
+      </class> <!-- ExtentsReports.ExtentsReports.FirstClass -->
+    </classes>
+  </test> <!-- Naveen Maven Test(failed) -->
+</suite> <!-- Failed suite [Mavenn Testing in CMD] -->
